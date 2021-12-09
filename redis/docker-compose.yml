@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  redis:
+    image: redis:latest
+    hostname: redis_localhost
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    container_name: redis
