@@ -11,3 +11,7 @@ We build a docker image with the configurations stored in the .yml file
 
 ### On windows
 ```docker-compose up -d```
+
+### Entering into redis using the docker image
+
+```docker exec -it ID-CONTAINER redis-cli ```
