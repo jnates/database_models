@@ -1,0 +1,21 @@
+INSERTS
+
+hset Despacho1 cod_despacho "312312" cod_despachador "123123" vehiculo "SFD321" fecha_ini "12/02/12" fecha_fin "4/02/14"  tiempo_despacho "1:45" estado "enviado"
+
+hset Despacho2 cod_despacho "324235" cod_despachador "456323" vehiculo "HFF533" fecha_ini "16/06/16" fecha_fin "5/04/17"  tiempo_despacho "14:35" estado "enviado"
+
+hset Despacho3 cod_despacho "984621" cod_despachador "842102" vehiculo "POD213" fecha_ini "30/02/18" fecha_fin "12/05/18"  tiempo_despacho "17:32" estado "cancelado"
+
+hset Despacho4 cod_despacho "643532" cod_despachador "512512" vehiculo "FDS123" fecha_ini "22/06/10" fecha_fin "21/09/12"  tiempo_despacho "18:22" estado "enviado"
+
+hset Despacho5 cod_despacho "342567" cod_despachador "645234" vehiculo "GRD342" fecha_ini "25/05/20" fecha_fin "11/08/22"  tiempo_despacho "18:35" estado "enviado"
+
+hset Despacho6 cod_despacho "643454" cod_despachador "543453" vehiculo "TRS654" fecha_ini "19/03/19" fecha_fin "24/02/14"  tiempo_despacho "12:31" estado "cancelado"
+
+hset Despacho7 cod_despacho "452743" cod_despachador "324645" vehiculo "YTR532" fecha_ini "05/06/11" fecha_fin "02/07/12"  tiempo_despacho "20:45" estado "cancelado"
+
+hset Despacho8 cod_despacho "654323" cod_despachador "874234" vehiculo "TGD458" fecha_ini "26/02/12" fecha_fin "12/09/13"  tiempo_despacho "13:22" estado "enviado"
+
+hset Despacho9 cod_despacho "789567" cod_despachador "832493" vehiculo "LIO654" fecha_ini "21/06/14" fecha_fin "12/12/14"  tiempo_despacho "15:45" estado "cancelado"
+
+hset Despacho10 cod_despacho "935643" cod_despachador "945572" vehiculo "RES456" fecha_ini "16/05/16" fecha_fin "17/06/16"  tiempo_despacho "22:48" estado "enviado"
