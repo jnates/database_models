@@ -12,11 +12,11 @@ def redis_string():
         with open('despacho.json') as file:
             datos = json.load(file)
 
-            for dato in datos:
-                data = json.dumps(dato)
-                print(data)
-                r.sadd("Despacho",data)
-    #r.flushall()
+            #for dato in datos:
+            #    data = json.dumps(dato)
+            #    print(data)
+            #    r.sadd("Despacho",data)
+        r.flushall()
     except Exception as e:
         print(e)
 

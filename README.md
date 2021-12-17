@@ -15,3 +15,7 @@ We build a docker image with the configurations stored in the .yml file
 ### Entering into redis using the docker image
 
 ```docker exec -it ID-CONTAINER redis-cli ```
+
+### Entering into cassandra using the docker image
+
+```docker exec -it cassandra_cassandra_1 cqlsh -u cassandra -p cassandra ```
